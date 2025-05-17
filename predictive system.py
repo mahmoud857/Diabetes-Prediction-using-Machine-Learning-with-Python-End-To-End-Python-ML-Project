@@ -3,7 +3,7 @@ import pickle
 
 # Load the model 
 
-loding_model=pickle.load(open("F:\ماشين ليرنج\مشاريع ماشين ليرنج end to end\Project 2 Diabetes Prediction using Machine Learning with Python  End To End Python ML Project\diabetes_model","rb"))
+loding_model=pickle.load(open("diabetes_model","rb"))
 
 input_data=(6,148,72,35,0,33.6,0.627,50)
 
