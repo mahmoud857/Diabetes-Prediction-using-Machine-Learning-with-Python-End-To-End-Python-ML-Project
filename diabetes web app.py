@@ -2,7 +2,7 @@ import numpy as np
 import pickle
 import streamlit 
 
-loading_model=pickle.load(open("F:\ماشين ليرنج\مشاريع ماشين ليرنج end to end\Project 2 Diabetes Prediction using Machine Learning with Python  End To End Python ML Project\diabetes_model","rb"))
+loading_model=pickle.load(open("diabetes_model","rb"))
 
 
 def diabetes_prediction(input_data):
